@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid } from '@material-ui/core/styles';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
@@ -6,7 +7,6 @@ const useStyles = makeStyles({
     gridRow: 1
   },
 });
-
 
 const MessageList = () => {
   const classes = useStyles()
